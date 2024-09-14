@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { fetchLeaderboard } from '../api/leaderboardApi'; // Make sure to implement this API call
 
-const LeaderboardPage = () => {
+const LeaderBoardPage = () => {
   const [leaderboard, setLeaderboard] = useState([]);
 
   useEffect(() => {
@@ -70,4 +70,4 @@ const LeaderboardPage = () => {
   );
 };
 
-export default LeaderboardPage;
+export default LeaderBoardPage;
